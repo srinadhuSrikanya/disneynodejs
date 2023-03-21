@@ -1,14 +1,20 @@
 {
-  "name": "c",
+  "name": "node.js-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
+  "directories": {
+    "test": "mocha"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
   "dependencies": {
-    "validator": "^10.8.0"
+    "chai": "^4.3.7"
   }
 }
